@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background-color: black;
+  display: flex;
+  align-items:center;
+  gap:13px;
+  padding:7px;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  gap:13px;
+}
+
+.event-link{
+  height:35px;
+  width:auto;
+}
+
+.public-title{
+  color:white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:28px;
+  font-style: italic;
+}
+
+.title-container{
+  background-color: #f2f2f2;
+  padding:15px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.title{
+  font-size:28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#3b3d42;
+}
+
+.ticket-container{
+  margin-left:15px;
+  margin-top:15px;
+  width:500px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:6px;
+  padding:8px;
+  border:1px solid black;
+}
+
+.ticket-bottom{
+  display: flex;
+  gap:15px;
+  align-items: center;
+}
+
+.info-container{
+  margin-left:15px;
+  margin-top:25px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  font-size:14px;
+}
+
+.ticket-num{
+  font-size:14px;
+}
+
+.gen-ad{
+  font-size:14px;
+}
+
+.val-btn{
+  background-color: #94d600;
+  border:none;
+  color:white;
+  padding:5px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.val-btn:hover{
+  opacity: 75%;
+}
+
+.success-text{
+  font-size:14px;
+  margin-left: 10px;
+  display: none;
+}
+
